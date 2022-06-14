@@ -11,8 +11,8 @@ import "github.com/gozoro/go-defstruct"
 
 type Data struct {
 
-	Host string `"env:"DATA_HOST" default:"localhost"`
-	Port int    `"env:"DATA_PORT" default:"8080"`
+	Host string `env:"DATA_HOST" default:"localhost"`
+	Port int    `env:"DATA_PORT" default:"8080"`
 }
 
 func (d *Data) LoadDefault() {
