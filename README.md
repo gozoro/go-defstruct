@@ -5,7 +5,7 @@ Go package sets default and environment scalar values to struct fields from tags
 
 ## Usage
 
-```
+```go
 
 import "github.com/gozoro/go-defstruct"
 
